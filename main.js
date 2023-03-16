@@ -21,5 +21,5 @@ app.use(
 );
 
 app.get("/", (req, res) => {
-  res.render(path.join(__dirname, "views/product.ejs"));
+  res.render(path.join(__dirname, "views/Signup.ejs"));
 });
