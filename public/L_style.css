@@ -1,0 +1,51 @@
+body {
+  height: 100vh;
+  background-color: rgb(1, 13, 83);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.face {
+  position: absolute;
+  top: 7%;
+  color: rgb(255, 255, 255);
+  font-size:x-large;
+  font-family: inherit;
+}
+.main {
+  height: 60vh;
+  width: 50vh;
+  background-color: rgb(211, 190, 190);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.login {
+  height: 13vh;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 10vh;
+  justify-content: center;
+  
+}
+label,
+h3 {
+  position: relative;
+  left: 15vh;
+}
+#uname {
+  width: 40vh;
+}
+a{
+  text-decoration: none;
+  position: relative;
+  top: 4vh;
+}
+p{
+  position: absolute;
+  bottom: 36vh;
+  color: red;
+}
