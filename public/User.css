@@ -1,0 +1,13 @@
+body {
+  background-color: chocolate;
+}
+#card {
+  background-color: darkseagreen;
+}
+img {
+ height: 100px;
+ aspect-ratio: 1;
+}
+div{
+    margin: 10px;
+}

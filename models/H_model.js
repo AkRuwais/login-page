@@ -14,10 +14,26 @@ const data = new mongoose.Schema({
     type: String,
     required: true,
   },
+  website: {
+    type: String,
+    required: true,
+  },
   bio: {
     type: String,
     required: true,
   },
+  email: {
+    type: String,
+    required: true,
+  },
+  phone: {
+    type: String,
+    required: true,
+  },
+  gender: {
+    type: String,
+    // required: true,
+  },
 });
 
-module.exports = mongoose.model("Home", data);
+module.exports = mongoose.model("home", data);

@@ -1,0 +1,35 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  height: 100vh;
+  background-color: rgb(1, 72, 83);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  height: 90vh;
+  width: 75vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 15px;
+}
+.card {
+  border-radius: 20px;
+  background-color: rgb(1, 1, 1);
+}
+
+h2 {
+  color: red;
+}
+
+label,
+textarea {
+  color: rgb(0, 202, 202);
+}
